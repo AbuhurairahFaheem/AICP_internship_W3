@@ -55,7 +55,7 @@ void t3(farm* cow, int size, int& max) {
 	}
 	
 	cout << "STATS(OVERALL):\n";
-	cout << "\n-------------------------------------------------------------------\n";
+	cout << "-------------------------------------------------------------------\n";
 	cout << "Cow that produced highest milk= " << cow[index].cow_id<<" : YIELD= "<< cow[index].total_yield << " litters." << endl;
 	cout << "-------------------------------------------------------------------\n";
 	cout << "Cows that are producing low volume of milk: \n"; 
