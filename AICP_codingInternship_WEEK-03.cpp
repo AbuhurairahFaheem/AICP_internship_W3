@@ -93,6 +93,6 @@ int main() {
 
 
 
-
+        delete [] cow;
 	return 0;
 }
