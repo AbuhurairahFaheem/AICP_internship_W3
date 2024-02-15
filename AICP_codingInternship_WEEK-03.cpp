@@ -53,11 +53,12 @@ void t3(farm* cow, int size, int& max) {
 			index = i;
 		}
 	}
-	cout << "\n-------------------------------------------------------------------\n";
+	
 	cout << "STATS(OVERALL):\n";
+	cout << "\n-------------------------------------------------------------------\n";
 	cout << "Cow that produced highest milk= " << cow[index].cow_id<<" : YIELD= "<< cow[index].total_yield << " litters." << endl;
 	cout << "-------------------------------------------------------------------\n";
-	cout << "Cows that are producing low volume of milk: "; 
+	cout << "Cows that are producing low volume of milk: \n"; 
 	for (int i = 0; i < size; i++) {
 		if (cow[i].total_yield<12) {
 			cout <<"Cow ID = "<< cow[i].cow_id << endl;
